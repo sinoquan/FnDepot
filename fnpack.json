@@ -44,6 +44,70 @@
           }
         }
       }
+    },
+    "stirling-pdf": {
+      "display_name": "Stirling PDF",
+      "desc": "Stirling PDF 是强大的开源 PDF 工具箱，支持合并、拆分、压缩、格式转换、OCR、签名等 50+ 功能，全程本地处理。默认端口 8080，安装后从飞牛桌面图标直接打开。本包由 sinoquan 基于官方 v3.3.0 定制发布。",
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "stirling-pdf/icons/icon.png",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": true,
+      "service_port": "8080",
+      "maintainer": "Stirling-Tools",
+      "maintainer_url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "distributor": "sinoquan",
+      "distributor_url": "https://github.com/sinoquan/FnDepot",
+      "releases": {
+        "3.3.0": {
+          "changelog": "由 sinoquan 定制打包，iframe 桌面入口。",
+          "updated_at": "2026-11-13T03:10:43+08:00",
+          "packages": {
+            "all": {
+              "download_url": "stirling-pdf/fpk/stirling-pdf-3.3.0.fpk",
+              "sha256": "5517f2c6c14dc18918dfad68ddc8d1113de08bb724bb8796f23eb4188db682c9",
+              "size": 28187
+            }
+          }
+        }
+      }
+    },
+    "it-tools": {
+      "display_name": "IT-Tools",
+      "desc": "IT-Tools 是一站式开发者工具箱，内置 100+ 实用工具：JSON 格式化、UUID 生成、Base64 编解码、哈希计算、正则测试、日期换算等，纯本地运行。默认端口 8081，安装后从飞牛桌面图标直接打开。本包由 sinoquan 定制发布。",
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "编程开发"
+      ],
+      "icon_url": "it-tools/icons/icon.png",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": true,
+      "service_port": "8081",
+      "maintainer": "CorentinTh",
+      "maintainer_url": "https://github.com/CorentinTh/it-tools",
+      "distributor": "sinoquan",
+      "distributor_url": "https://github.com/sinoquan/FnDepot",
+      "releases": {
+        "2024.10.22": {
+          "changelog": "由 sinoquan 定制打包，iframe 桌面入口。",
+          "updated_at": "2026-11-13T03:10:47+08:00",
+          "packages": {
+            "all": {
+              "download_url": "it-tools/fpk/it-tools-2024.10.22.fpk",
+              "sha256": "b48b488d0758c9dca51dbb187ac8728e810ecd09fb43ca32b7487e5e325698d8",
+              "size": 60501
+            }
+          }
+        }
+      }
     }
   }
 }
