@@ -29,10 +29,10 @@
       "releases": {
         "3.66.0": {
           "changelog": "基于 AlistGo 官方 v3.66.0 定制：安装向导设置管理员密码，发布者 sinoquan。",
-          "updated_at": "2026-11-13T02:53:35+08:00",
+          "updated_at": "2026-11-13T02:57:44+08:00",
           "packages": {
             "x86": {
-              "download_url": "alist/fpk/alist-3.66.0-x86.fpk",
+              "download_url": "https://github.com/sinoquan/fn-app/releases/download/alist-3.66.0/alist-3.66.0-x86.fpk",
               "sha256": "835de5b5c981d64d3185d0a25445695084ec95e4a255dc5d8821952afe71734a",
               "size": 44474430
             },
