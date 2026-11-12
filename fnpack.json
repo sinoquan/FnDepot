@@ -108,44 +108,6 @@
           }
         }
       }
-    },
-    "navidrome": {
-      "display_name": "Navidrome",
-      "desc": "Navidrome 是自建音乐流媒体服务器（自建 Spotify）：把 NAS 音乐库变成网页/手机都能访问的流媒体服务，支持多用户、转码、歌词、智能播放列表。安装后从飞牛桌面图标内嵌打开，首次打开时创建管理员账号。默认端口 4533。由 sinoquan 基于官方 v0.64.2 定制发布。",
-      "platform": [
-        "x86",
-        "arm"
-      ],
-      "categories": [
-        "影音娱乐"
-      ],
-      "icon_url": "navidrome/icons/icon.png",
-      "run_as": "package",
-      "install_type": "",
-      "is_docker": false,
-      "service_port": "4533",
-      "maintainer": "Navidrome Team",
-      "maintainer_url": "https://github.com/navidrome/navidrome",
-      "distributor": "sinoquan",
-      "distributor_url": "https://github.com/sinoquan/FnDepot",
-      "releases": {
-        "0.64.2": {
-          "changelog": "基于 Navidrome 官方 v0.64.2 定制，iframe 内嵌入口，首次打开创建管理员账号。",
-          "updated_at": "2026-11-13T03:49:50+08:00",
-          "packages": {
-            "x86": {
-              "download_url": "navidrome/fpk/navidrome-0.64.2-x86.fpk",
-              "sha256": "efaf1ca4776e56ce725af9a92a86ddcdca3a6ed434866550a68d5b1d6a0caef3",
-              "size": 24852936
-            },
-            "arm": {
-              "download_url": "navidrome/fpk/navidrome-0.64.2-arm.fpk",
-              "sha256": "7436ef3582fcaf7703698e22857bb7f6be5c78c0da341dd3d9923f538fe05a88",
-              "size": 23324799
-            }
-          }
-        }
-      }
     }
   }
 }
