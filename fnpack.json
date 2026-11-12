@@ -1,0 +1,49 @@
+{
+  "schema_version": "2",
+  "source_info": {
+    "name": "fn-app 飞牛应用收集",
+    "author": "sinoquan",
+    "homepage": "https://github.com/sinoquan/fn-app",
+    "description": "收集好玩/热门的开源项目，打包成飞牛 fnOS 的 fkp 软件。"
+  },
+  "apps": {
+    "alist": {
+      "display_name": "AList",
+      "desc": "AList 是一个支持多种存储（阿里云盘、夸克、百度网盘、本地、WebDAV 等）的文件列表与 WebDAV 程序。安装时请在向导中设置管理员密码（6-128 位）；装完用浏览器打开应用，账号为 admin、密码为安装时设置的密码，默认端口 5244。本包由 sinoquan 基于 AlistGo 官方 v3.66.0 定制发布。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "alist/icons/icon.png",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "service_port": "5244",
+      "maintainer": "AlistGo",
+      "maintainer_url": "https://github.com/AlistGo/alist",
+      "distributor": "sinoquan",
+      "distributor_url": "https://github.com/sinoquan/fn-app",
+      "releases": {
+        "3.66.0": {
+          "changelog": "基于 AlistGo 官方 v3.66.0 定制：安装向导设置管理员密码，发布者 sinoquan。",
+          "updated_at": "2026-11-13T02:53:35+08:00",
+          "packages": {
+            "x86": {
+              "download_url": "alist/fpk/alist-3.66.0-x86.fpk",
+              "sha256": "835de5b5c981d64d3185d0a25445695084ec95e4a255dc5d8821952afe71734a",
+              "size": 44474430
+            },
+            "arm": {
+              "download_url": "alist/fpk/alist-3.66.0-arm.fpk",
+              "sha256": "65b31ff2e7beae2bf65e8691ef80108ad4785d2e1a76dc1844575a3ff6f29338",
+              "size": 41820099
+            }
+          }
+        }
+      }
+    }
+  }
+}
