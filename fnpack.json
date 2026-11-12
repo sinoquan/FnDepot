@@ -135,13 +135,13 @@
           "packages": {
             "x86": {
               "download_url": "navidrome/fpk/navidrome-0.64.2-x86.fpk",
-              "sha256": "ed42431a3091884fc3012782f41c3304983b483db314aae5db9f998b4cde1063",
-              "size": 24852913
+              "sha256": "efaf1ca4776e56ce725af9a92a86ddcdca3a6ed434866550a68d5b1d6a0caef3",
+              "size": 24852936
             },
             "arm": {
               "download_url": "navidrome/fpk/navidrome-0.64.2-arm.fpk",
-              "sha256": "c211fcc0a0f54f58b7b8e019651c9f050b89b38e3cb4bf23d37f30dcc012427c",
-              "size": 23324740
+              "sha256": "7436ef3582fcaf7703698e22857bb7f6be5c78c0da341dd3d9923f538fe05a88",
+              "size": 23324799
             }
           }
         }
