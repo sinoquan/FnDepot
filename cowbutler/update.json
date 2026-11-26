@@ -1,23 +1,23 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "published_at": "2026-11-27",
-  "notes": "首个正式版\n\n1. 更名「牛管家 CowButler」并启用新图标；\n2. 存储空间：按卷展示组盘方式、文件系统、成员盘（品牌 · 型号 · 序列号）；\n3. 系统清理：新增扫描范围设置，默认全部数据卷，硬盘休眠时自动跳过；\n4. 软件设置精简为通知相关，其它设置回到各自功能页；\n5. 新增每日自动检查更新（左下角版本号旁会提示）。",
+  "notes": "1. 应用市场标注数据来源为 fnOS Apps，来源条目固定置顶并加星标；\n2. 磁盘信息新增「接口」列，型号显示品牌（如 七彩虹 Qichen A500）；\n3. 清理磁盘展开区与表头重复的信息，序列号移到设备列的悬浮提示；\n4. 「次要域名」开关并入「立即优选」，优化时自动带上 TheTVDB / Fanart / Trakt。",
   "packages": {
     "x86_64": {
       "urls": [
-        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.1-x86_64.fpk",
-        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.1-x86_64.fpk"
+        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.2-x86_64.fpk",
+        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.2-x86_64.fpk"
       ],
-      "size": 19707187,
-      "sha256": "0f4122482bf048463fa20a121638447f13623678783e2fb2314685df94d850a6"
+      "size": 19586120,
+      "sha256": "51dc72f57ab2b26a3bed595c1551a877ce3dcb03f0cccddfbaf8ded033126ece"
     },
     "arm64": {
       "urls": [
-        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.1-arm64.fpk",
-        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.1-arm64.fpk"
+        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.2-arm64.fpk",
+        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.2-arm64.fpk"
       ],
-      "size": 19374449,
-      "sha256": "42a2a9082e4f9b311041b789ffb4dbc2047f0ce82fbef3771345d25f69b064b1"
+      "size": 19255655,
+      "sha256": "ebe40e83c6ec95be97a9955125ab4b02650a058f1c2c716fbded3f742cd2135d"
     }
   }
 }
