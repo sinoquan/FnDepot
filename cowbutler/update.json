@@ -10,6 +10,14 @@
       ],
       "size": 19707498,
       "sha256": "9f57e914eddc4921eb15c411635408c9feab18eba18c07749bc9c04a2210e484"
+    },
+    "arm64": {
+      "urls": [
+        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.1-arm64.fpk",
+        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.1-arm64.fpk"
+      ],
+      "size": 19374359,
+      "sha256": "50f01aff7f1423fafa0ad7643eedce7ee91c1a6cfcd81d7636534c9bb58ac9e0"
     }
   }
 }
