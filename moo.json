@@ -1,0 +1,57 @@
+{
+  "schema_version": "moo",
+  "source_info": {
+    "name": "牛管家 CowButler",
+    "author": "依修",
+    "distributor": "依修",
+    "homepage": "https://github.com/sinoquan/FnDepot",
+    "description": "专为飞牛 fnOS 打造的系统管家：一键体检、垃圾与残留清理、硬盘 SMART 与存储空间、安全巡检、流量统计、Docker 与应用治理。打开即用，不登录、不上传，数据全部留在本机。",
+    "updated_at": "2026-11-27T00:00:00+08:00"
+  },
+  "apps": {
+    "cowbutler": {
+      "display_name": "牛管家",
+      "version": "1.0.1",
+      "platform": [
+        "arm",
+        "x86"
+      ],
+      "app_type": "fpk",
+      "install_type": "root",
+      "service_port": 38080,
+      "min_fnos": "1.2.1102",
+      "categories": [
+        "实用效率"
+      ],
+      "desc": "专为飞牛 fnOS 打造的系统管家：一键体检、垃圾与残留清理、硬盘 SMART 与存储空间、安全巡检、流量统计、Docker 与应用治理。打开即用，不登录、不上传，数据全部留在本机。",
+      "icon_url": "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/icons/icon.png",
+      "readme_url": "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/README.md",
+      "homepage": "https://github.com/sinoquan/FnDepot/tree/main/cowbutler",
+      "bug_report_url": "https://github.com/sinoquan/FnDepot/issues",
+      "author": "依修",
+      "distributor": "依修",
+      "first_release_at": "2026-11-27T00:00:00+08:00",
+      "updated_at": "2026-11-27T00:00:00+08:00",
+      "releases": {
+        "1.0.1": {
+          "changelog": "首个正式版\n\n1. 更名「牛管家 CowButler」并启用新图标；\n2. 存储空间：按卷展示组盘方式、文件系统、成员盘（品牌 · 型号 · 序列号）；\n3. 系统清理：新增扫描范围设置，默认全部数据卷，硬盘休眠时自动跳过；\n4. 软件设置精简为通知相关，其它设置回到各自功能页；\n5. 新增每日自动检查更新（左下角版本号旁会提示）。",
+          "updated_at": "2026-11-27T00:00:00+08:00",
+          "packages": {
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.1-x86_64.fpk",
+              "sha256": "0f4122482bf048463fa20a121638447f13623678783e2fb2314685df94d850a6",
+              "size": 19707187,
+              "size_mb": 18.79
+            },
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.1-arm64.fpk",
+              "sha256": "42a2a9082e4f9b311041b789ffb4dbc2047f0ce82fbef3771345d25f69b064b1",
+              "size": 19374449,
+              "size_mb": 18.48
+            }
+          }
+        }
+      }
+    }
+  }
+}
