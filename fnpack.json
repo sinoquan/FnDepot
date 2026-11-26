@@ -42,6 +42,22 @@
               "size": 19374449
             }
           }
+        },
+        "1.0.2": {
+          "changelog": "1. 应用市场标注数据来源为 fnOS Apps，来源条目固定置顶并加星标；\n2. 磁盘信息新增「接口」列，型号显示品牌（如 七彩虹 Qichen A500）；\n3. 清理磁盘展开区与表头重复的信息，序列号移到设备列的悬浮提示；\n4. 「次要域名」开关并入「立即优选」，优化时自动带上 TheTVDB / Fanart / Trakt。",
+          "updated_at": "2026-11-27T04:34:38+0800",
+          "packages": {
+            "x86": {
+              "download_url": "cowbutler/fpk/cowbutler-1.0.2-x86_64.fpk",
+              "sha256": "51dc72f57ab2b26a3bed595c1551a877ce3dcb03f0cccddfbaf8ded033126ece",
+              "size": 19586120
+            },
+            "arm": {
+              "download_url": "cowbutler/fpk/cowbutler-1.0.2-arm64.fpk",
+              "sha256": "ebe40e83c6ec95be97a9955125ab4b02650a058f1c2c716fbded3f742cd2135d",
+              "size": 19255655
+            }
+          }
         }
       }
     }
