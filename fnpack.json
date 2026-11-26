@@ -49,7 +49,8 @@
       "display_name": "牛管家",
       "desc": "牛管家（CowButler）是专为飞牛 fnOS 打造的系统管家：一键体检、垃圾与残留清理、硬盘 SMART 与存储空间、安全巡检、流量统计、Docker 与应用治理。打开即用，不登录、不采集，数据全部留在本机。",
       "platform": [
-        "x86"
+        "x86",
+        "arm"
       ],
       "categories": [
         "系统工具"
@@ -66,12 +67,17 @@
       "releases": {
         "1.0.1": {
           "changelog": "首个正式版\n\n1. 更名「牛管家 CowButler」并启用新图标；\n2. 存储空间：按卷展示组盘方式、文件系统、成员盘（品牌 · 型号 · 序列号）；\n3. 系统清理：新增扫描范围设置，默认全部数据卷，硬盘休眠时自动跳过；\n4. 软件设置精简为通知相关，其它设置回到各自功能页；\n5. 新增每日自动检查更新（左下角版本号旁会提示）。",
-          "updated_at": "2026-11-27T02:58:24+0800",
+          "updated_at": "2026-11-27T03:05:51+0800",
           "packages": {
             "x86": {
               "download_url": "cowbutler/fpk/cowbutler-1.0.1-x86_64.fpk",
               "sha256": "9f57e914eddc4921eb15c411635408c9feab18eba18c07749bc9c04a2210e484",
               "size": 19707498
+            },
+            "arm": {
+              "download_url": "cowbutler/fpk/cowbutler-1.0.1-arm64.fpk",
+              "sha256": "50f01aff7f1423fafa0ad7643eedce7ee91c1a6cfcd81d7636534c9bb58ac9e0",
+              "size": 19374359
             }
           }
         }
