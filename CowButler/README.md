@@ -6,7 +6,7 @@
 流量统计、Docker 与应用治理。它不替换 fnOS 的任何功能，只是把散落各处的信息汇总起来，
 **在出问题之前提醒你**。
 
-![牛管家](https://raw.githubusercontent.com/sinoquan/FnDepot/main/CowButler/icon.png)
+![牛管家](https://raw.githubusercontent.com/sinoquan/FnDepot/main/CowButler/icons/icon.png)
 
 ## 它能做什么
 
@@ -23,7 +23,7 @@
 
 ## 安装
 
-1. 下载本目录 `packages/` 下的 `cowbutler-<版本>-x86_64.fpk`；
+1. 下载本目录 `fpk/` 下的 `cowbutler-<版本>-x86_64.fpk`；
 2. 打开 fnOS「应用中心 → 手动安装」，选择该文件；
 3. 安装完成后在应用中心启动，左侧应用列表会出现「牛管家」。
 
@@ -36,7 +36,10 @@
 - 也可以随时在「关于产品 → 检查更新」手动检查；
 - 更新包会做 sha256 校验，校验不通过会中止安装。
 
-更新信息统一放在本目录的 [`update.json`](update.json)，安装包放在 `packages/`。
+更新信息统一放在本目录的 [`update.json`](update.json)，安装包放在 `fpk/`。
+
+本目录同时已登记进仓库根目录的 `fnpack.json`，可以在飞牛「应用中心 → 第三方源」里直接添加：
+`https://raw.githubusercontent.com/sinoquan/FnDepot/main/fnpack.json`
 
 ## 版本记录
 
