@@ -5,11 +5,11 @@
   "packages": {
     "x86_64": {
       "urls": [
-        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/CowButler/fpk/cowbutler-1.0.1-x86_64.fpk",
-        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/CowButler/fpk/cowbutler-1.0.1-x86_64.fpk"
+        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.1-x86_64.fpk",
+        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.1-x86_64.fpk"
       ],
-      "size": 19707466,
-      "sha256": "97b2ea2c17e633c0b0909f853e171ce57649d17e15c125e38f0db6d624a503f8"
+      "size": 19707498,
+      "sha256": "9f57e914eddc4921eb15c411635408c9feab18eba18c07749bc9c04a2210e484"
     }
   }
 }
