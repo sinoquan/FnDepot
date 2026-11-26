@@ -23,11 +23,25 @@
 
 ## 安装
 
-1. 下载本目录 `fpk/` 下的 `cowbutler-<版本>-x86_64.fpk`；
+**方式一：手动安装（最稳）**
+
+1. 按设备架构下载本目录 `fpk/` 下的安装包：`cowbutler-<版本>-x86_64.fpk`（Intel / AMD）或
+   `cowbutler-<版本>-arm64.fpk`（ARM，如 RK3588 / N100 的 ARM 机型）；
 2. 打开 fnOS「应用中心 → 手动安装」，选择该文件；
 3. 安装完成后在应用中心启动，左侧应用列表会出现「牛管家」。
 
-> 目前提供 x86_64（Intel / AMD）版本，arm64 版本随需求发布。
+**方式二：通过 Moo 应用中心（社区商店）**
+
+1. 在 Moo 的搜索框里直接粘贴 `https://github.com/sinoquan/FnDepot`，会自动识别为应用源；
+2. 搜「牛管家」→ 安装，Moo 会按本机架构自动选对包并校验 sha256。
+
+**方式三：飞牛第三方源**
+
+「应用中心 → 第三方源」添加 `https://raw.githubusercontent.com/sinoquan/FnDepot/main/fnpack.json`。
+
+> 本应用需要读取系统底层接口（SMART、连接跟踪表、Docker），安装类型是 **root**。
+> 这不影响你日常使用——服务由应用中心以 root 拉起，你用什么账号登录面板都可以。
+> 也因为这一点，飞牛官方应用商店暂不收录，请走上面三个渠道。
 
 ## 更新
 
@@ -38,8 +52,7 @@
 
 更新信息统一放在本目录的 [`update.json`](update.json)，安装包放在 `fpk/`。
 
-本目录同时已登记进仓库根目录的 `fnpack.json`，可以在飞牛「应用中心 → 第三方源」里直接添加：
-`https://raw.githubusercontent.com/sinoquan/FnDepot/main/fnpack.json`
+本目录同时已登记进仓库根目录的 `fnpack.json`（飞牛第三方源）与 `moo.json`（Moo 应用源）。
 
 ## 版本记录
 
