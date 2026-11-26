@@ -67,17 +67,17 @@
       "releases": {
         "1.0.1": {
           "changelog": "首个正式版\n\n1. 更名「牛管家 CowButler」并启用新图标；\n2. 存储空间：按卷展示组盘方式、文件系统、成员盘（品牌 · 型号 · 序列号）；\n3. 系统清理：新增扫描范围设置，默认全部数据卷，硬盘休眠时自动跳过；\n4. 软件设置精简为通知相关，其它设置回到各自功能页；\n5. 新增每日自动检查更新（左下角版本号旁会提示）。",
-          "updated_at": "2026-11-27T03:05:51+0800",
+          "updated_at": "2026-11-27T03:08:27+0800",
           "packages": {
             "x86": {
               "download_url": "cowbutler/fpk/cowbutler-1.0.1-x86_64.fpk",
-              "sha256": "9f57e914eddc4921eb15c411635408c9feab18eba18c07749bc9c04a2210e484",
-              "size": 19707498
+              "sha256": "0f4122482bf048463fa20a121638447f13623678783e2fb2314685df94d850a6",
+              "size": 19707187
             },
             "arm": {
               "download_url": "cowbutler/fpk/cowbutler-1.0.1-arm64.fpk",
-              "sha256": "50f01aff7f1423fafa0ad7643eedce7ee91c1a6cfcd81d7636534c9bb58ac9e0",
-              "size": 19374359
+              "sha256": "42a2a9082e4f9b311041b789ffb4dbc2047f0ce82fbef3771345d25f69b064b1",
+              "size": 19374449
             }
           }
         }
