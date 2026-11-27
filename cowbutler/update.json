@@ -1,23 +1,23 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.12",
   "published_at": "2026-11-28",
-  "notes": "1. 测速按钮的运行态图标改为停止方块，按钮内不再有任何动画（此前的旋转圆弧左右不对称）；\n2. 磁盘信息表头「设备」改为「类型」（SSD / HDD），设备名与序列号移入悬浮提示；\n3. 一键体检的问题模块可直接点击跳转到对应页面（硬盘、系统运行、安全、数据安全、应用）；\n4. 修复「前往」按钮跳到不存在的页面导致主区域白屏，不存在的页面一律回首页；\n5. 测速节点列表未加载完时不再拦截，自动按「自动选择（国内最优）」开始测。",
+  "notes": "1. Docker 设置页 HTTP / HTTPS 代理后新增「测试」按钮：点一下显示延迟多少毫秒，失败会说明原因（连接超时、代理被拒绝、目标不像 Docker 仓库等）；\n2. Docker 容器更新检测从每天一次改为每 8 小时一次；\n3. Docker 页右上角刷新改为 15 秒静默刷新，不再需要手动点；「检查更新」做成显眼的小图标按钮，带可更新数量徽标；\n4. 通知中心新增「通知清理」：可勾选严重 / 警告 / 提示 / 未读 / 全部，一键清理所选通知记录；\n5. 修复代理测试把非代理端口误判为通过（改为 CONNECT 隧道 + registry 特征校验）；\n6. 统一「可更新」计数口径：徽标、概览文案与容器列表筛选三处数字一致，并清理已删除容器的残留记录。",
   "packages": {
     "x86_64": {
       "urls": [
-        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.10-x86_64.fpk",
-        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.10-x86_64.fpk"
+        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.12-x86_64.fpk",
+        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.12-x86_64.fpk"
       ],
-      "size": 19725432,
-      "sha256": "5d7f7ee20130f90eac0135b00c027205cbac6ec5b208ec05f335222a64b0265c"
+      "size": 19749556,
+      "sha256": "63dbde51edd9f7a156157056a1fb979b220ec5bd53fb18001cb0f2f3291a59e5"
     },
     "arm64": {
       "urls": [
-        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.10-arm64.fpk",
-        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.10-arm64.fpk"
+        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.12-arm64.fpk",
+        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.12-arm64.fpk"
       ],
-      "size": 19428469,
-      "sha256": "c93a925d801a2af71794d225702858c99dc7ab88e519c6c9628de9a52fb30ec7"
+      "size": 19452157,
+      "sha256": "a6a58ebce957e57bec6c38ba8137faeeeae78e57d69286c997e6c603f960c06a"
     }
   }
 }
