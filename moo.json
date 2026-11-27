@@ -11,7 +11,7 @@
   "apps": {
     "cowbutler": {
       "display_name": "牛管家",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "platform": [
         "arm",
         "x86"
@@ -33,6 +33,24 @@
       "first_release_at": "2026-11-27T00:00:00+08:00",
       "updated_at": "2026-11-27T00:00:00+08:00",
       "releases": {
+        "1.0.8": {
+          "changelog": "1. 修复「带宽测速」点击开始后按钮一直闪、测速不动的问题：状态轮询单次失败不再中断，卡住后点一下即可恢复；按钮空闲时不再有装饰性呼吸光环，只有真正测速时才显示红色光环；\n2. 修复「磁盘测速」历史记录一直空白（方法名被外网测速覆盖）；\n3. 1.0.7 的安装兼容性修复继续生效（官方 fnpack 封装、最低系统版本 0.8.0）。",
+          "updated_at": "2026-11-27T00:00:00+08:00",
+          "packages": {
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.8-x86_64.fpk",
+              "sha256": "cf1db53f7661e108172be2d026602306dd2e6035883afdc4ef3d1063fc235bde",
+              "size": 19720527,
+              "size_mb": 18.81
+            },
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.8-arm64.fpk",
+              "sha256": "adc645be8574bfe151baa5fe059f39d20bcda01588da203caa4f372297337a57",
+              "size": 19420365,
+              "size_mb": 18.52
+            }
+          }
+        },
         "1.0.7": {
           "changelog": "1. 修复部分设备安装时报「不是有效的 fpk 文件」的问题（改用飞牛官方打包工具重新封装，并下调最低系统版本要求）；\n2. 磁盘信息新增「读取」「写入」实时速率，每 2 秒刷新，休眠盘显示「休眠中」；\n3. 磁盘信息新增「接口」列，型号显示品牌（如 七彩虹 Qichen A500）；\n4. 修正首页存储总容量虚高：原先把容器挂载与系统盘一并计入，21.5TB 实为 10.7TB；\n5. 休眠硬盘不再显示「无法读取」，状态列直接显示「休眠」，且查询本身不会唤醒休眠盘；\n6. 硬盘风险提示按「盘 + 问题类型 + 序列号」记忆，点过「知道了」后同一问题不再重复；\n7. 硬件概览只显示已插内存条，空插槽不再铺满一屏；\n8. 应用市场标注数据来源为 fnOS Apps，该条目置顶并加星标。",
           "updated_at": "2026-11-27T00:00:00+08:00",
