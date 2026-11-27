@@ -106,6 +106,22 @@
               "size": 19428469
             }
           }
+        },
+        "1.0.12": {
+          "changelog": "1. Docker 设置页 HTTP / HTTPS 代理后新增「测试」按钮：点一下显示延迟多少毫秒，失败会说明原因（连接超时、代理被拒绝、目标不像 Docker 仓库等）；\n2. Docker 容器更新检测从每天一次改为每 8 小时一次；\n3. Docker 页右上角刷新改为 15 秒静默刷新，不再需要手动点；「检查更新」做成显眼的小图标按钮，带可更新数量徽标；\n4. 通知中心新增「通知清理」：可勾选严重 / 警告 / 提示 / 未读 / 全部，一键清理所选通知记录；\n5. 修复代理测试把非代理端口误判为通过（改为 CONNECT 隧道 + registry 特征校验）；\n6. 统一「可更新」计数口径：徽标、概览文案与容器列表筛选三处数字一致，并清理已删除容器的残留记录。",
+          "updated_at": "2026-11-28T03:01:59+0800",
+          "packages": {
+            "x86": {
+              "download_url": "cowbutler/fpk/cowbutler-1.0.12-x86_64.fpk",
+              "sha256": "63dbde51edd9f7a156157056a1fb979b220ec5bd53fb18001cb0f2f3291a59e5",
+              "size": 19749556
+            },
+            "arm": {
+              "download_url": "cowbutler/fpk/cowbutler-1.0.12-arm64.fpk",
+              "sha256": "a6a58ebce957e57bec6c38ba8137faeeeae78e57d69286c997e6c603f960c06a",
+              "size": 19452157
+            }
+          }
         }
       },
       "version": "1.0.7"
