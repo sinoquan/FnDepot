@@ -6,12 +6,12 @@
     "distributor": "依修",
     "homepage": "https://github.com/sinoquan/FnDepot",
     "description": "专为飞牛 fnOS 打造的系统管家：一键体检、垃圾与残留清理、硬盘 SMART 与存储空间、安全巡检、流量统计、Docker 与应用治理。打开即用，不登录、不上传，数据全部留在本机。",
-    "updated_at": "2026-11-27T00:00:00+08:00"
+    "updated_at": "2026-11-28T00:00:00+08:00"
   },
   "apps": {
     "cowbutler": {
       "display_name": "牛管家",
-      "version": "1.0.8",
+      "version": "1.0.10",
       "platform": [
         "arm",
         "x86"
@@ -31,8 +31,26 @@
       "author": "依修",
       "distributor": "依修",
       "first_release_at": "2026-11-27T00:00:00+08:00",
-      "updated_at": "2026-11-27T00:00:00+08:00",
+      "updated_at": "2026-11-28T00:00:00+08:00",
       "releases": {
+        "1.0.10": {
+          "changelog": "1. 测速按钮的运行态图标改为停止方块，按钮内不再有任何动画（此前的旋转圆弧左右不对称）；\n2. 磁盘信息表头「设备」改为「类型」（SSD / HDD），设备名与序列号移入悬浮提示；\n3. 一键体检的问题模块可直接点击跳转到对应页面（硬盘、系统运行、安全、数据安全、应用）；\n4. 修复「前往」按钮跳到不存在的页面导致主区域白屏，不存在的页面一律回首页；\n5. 测速节点列表未加载完时不再拦截，自动按「自动选择（国内最优）」开始测。",
+          "updated_at": "2026-11-28T00:00:00+08:00",
+          "packages": {
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.10-x86_64.fpk",
+              "sha256": "5d7f7ee20130f90eac0135b00c027205cbac6ec5b208ec05f335222a64b0265c",
+              "size": 19725432,
+              "size_mb": 18.81
+            },
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.10-arm64.fpk",
+              "sha256": "c93a925d801a2af71794d225702858c99dc7ab88e519c6c9628de9a52fb30ec7",
+              "size": 19428469,
+              "size_mb": 18.53
+            }
+          }
+        },
         "1.0.8": {
           "changelog": "1. 修复「带宽测速」点击开始后按钮一直闪、测速不动的问题：状态轮询单次失败不再中断，卡住后点一下即可恢复；按钮空闲时不再有装饰性呼吸光环，只有真正测速时才显示红色光环；\n2. 修复「磁盘测速」历史记录一直空白（方法名被外网测速覆盖）；\n3. 1.0.7 的安装兼容性修复继续生效（官方 fnpack 封装、最低系统版本 0.8.0）。",
           "updated_at": "2026-11-27T00:00:00+08:00",
@@ -66,24 +84,6 @@
               "sha256": "522f12876b33ac404c5d206a49f01098697a03e85c2c4e74ddd44663a4b69ef3",
               "size": 19419654,
               "size_mb": 18.52
-            }
-          }
-        },
-        "1.0.2": {
-          "changelog": "1. 应用市场标注数据来源为 fnOS Apps，来源条目固定置顶并加星标；\n2. 磁盘信息新增「接口」列，型号显示品牌（如 七彩虹 Qichen A500）；\n3. 清理磁盘展开区与表头重复的信息，序列号移到设备列的悬浮提示；\n4. 「次要域名」开关并入「立即优选」，优化时自动带上 TheTVDB / Fanart / Trakt。",
-          "updated_at": "2026-11-27T00:00:00+08:00",
-          "packages": {
-            "x86": {
-              "download_url": "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.2-x86_64.fpk",
-              "sha256": "51dc72f57ab2b26a3bed595c1551a877ce3dcb03f0cccddfbaf8ded033126ece",
-              "size": 19586120,
-              "size_mb": 18.68
-            },
-            "arm": {
-              "download_url": "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.2-arm64.fpk",
-              "sha256": "ebe40e83c6ec95be97a9955125ab4b02650a058f1c2c716fbded3f742cd2135d",
-              "size": 19255655,
-              "size_mb": 18.36
             }
           }
         }
