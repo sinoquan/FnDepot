@@ -1,23 +1,23 @@
 {
-  "version": "1.0.8",
-  "published_at": "2026-11-27",
-  "notes": "1. 修复「带宽测速」点击开始后按钮一直闪、测速不动的问题：状态轮询单次失败不再中断，卡住后点一下即可恢复；按钮空闲时不再有装饰性呼吸光环，只有真正测速时才显示红色光环；\n2. 修复「磁盘测速」历史记录一直空白（方法名被外网测速覆盖）；\n3. 1.0.7 的安装兼容性修复继续生效（官方 fnpack 封装、最低系统版本 0.8.0）。",
+  "version": "1.0.10",
+  "published_at": "2026-11-28",
+  "notes": "1. 测速按钮的运行态图标改为停止方块，按钮内不再有任何动画（此前的旋转圆弧左右不对称）；\n2. 磁盘信息表头「设备」改为「类型」（SSD / HDD），设备名与序列号移入悬浮提示；\n3. 一键体检的问题模块可直接点击跳转到对应页面（硬盘、系统运行、安全、数据安全、应用）；\n4. 修复「前往」按钮跳到不存在的页面导致主区域白屏，不存在的页面一律回首页；\n5. 测速节点列表未加载完时不再拦截，自动按「自动选择（国内最优）」开始测。",
   "packages": {
     "x86_64": {
       "urls": [
-        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.8-x86_64.fpk",
-        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.8-x86_64.fpk"
+        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.10-x86_64.fpk",
+        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.10-x86_64.fpk"
       ],
-      "size": 19720527,
-      "sha256": "cf1db53f7661e108172be2d026602306dd2e6035883afdc4ef3d1063fc235bde"
+      "size": 19725432,
+      "sha256": "5d7f7ee20130f90eac0135b00c027205cbac6ec5b208ec05f335222a64b0265c"
     },
     "arm64": {
       "urls": [
-        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.8-arm64.fpk",
-        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.8-arm64.fpk"
+        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.10-arm64.fpk",
+        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.10-arm64.fpk"
       ],
-      "size": 19420365,
-      "sha256": "adc645be8574bfe151baa5fe059f39d20bcda01588da203caa4f372297337a57"
+      "size": 19428469,
+      "sha256": "c93a925d801a2af71794d225702858c99dc7ab88e519c6c9628de9a52fb30ec7"
     }
   }
 }
