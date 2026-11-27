@@ -1,23 +1,23 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "published_at": "2026-11-27",
-  "notes": "1. 磁盘信息新增「读取」「写入」实时速率，每 2 秒刷新，休眠盘显示「休眠中」；\n2. 磁盘信息新增「接口」列，型号显示品牌（如 七彩虹 Qichen A500）；\n3. 修正首页存储总容量虚高：原先把容器挂载与系统盘一并计入，21.5TB 实为 10.7TB；\n4. 休眠硬盘不再显示「无法读取」，状态列直接显示「休眠」，且查询本身不会唤醒休眠盘；\n5. 硬盘风险提示按「盘 + 问题类型 + 序列号」记忆，点过「知道了」后同一问题不再重复；\n6. 硬件概览只显示已插内存条，空插槽不再铺满一屏；\n7. 应用市场标注数据来源为 fnOS Apps，该条目置顶并加星标。",
+  "notes": "1. 修复部分设备安装时报「不是有效的 fpk 文件」的问题（改用飞牛官方打包工具重新封装，并下调最低系统版本要求）；\n2. 磁盘信息新增「读取」「写入」实时速率，每 2 秒刷新，休眠盘显示「休眠中」；\n3. 磁盘信息新增「接口」列，型号显示品牌（如 七彩虹 Qichen A500）；\n4. 修正首页存储总容量虚高：原先把容器挂载与系统盘一并计入，21.5TB 实为 10.7TB；\n5. 休眠硬盘不再显示「无法读取」，状态列直接显示「休眠」，且查询本身不会唤醒休眠盘；\n6. 硬盘风险提示按「盘 + 问题类型 + 序列号」记忆，点过「知道了」后同一问题不再重复；\n7. 硬件概览只显示已插内存条，空插槽不再铺满一屏；\n8. 应用市场标注数据来源为 fnOS Apps，该条目置顶并加星标。",
   "packages": {
     "x86_64": {
       "urls": [
-        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.6-x86_64.fpk",
-        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.6-x86_64.fpk"
+        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.7-x86_64.fpk",
+        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.7-x86_64.fpk"
       ],
-      "size": 19597265,
-      "sha256": "650389ccbaf768111d8f4fd1835156ebc3c68d11c08e65e63674ae325ae6f69e"
+      "size": 19719197,
+      "sha256": "27a81dcaee5545d701cce24e2214c50e531e8d01b5510526d2b498974e39cadf"
     },
     "arm64": {
       "urls": [
-        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.6-arm64.fpk",
-        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.6-arm64.fpk"
+        "https://raw.githubusercontent.com/sinoquan/FnDepot/main/cowbutler/fpk/cowbutler-1.0.7-arm64.fpk",
+        "https://cdn.jsdelivr.net/gh/sinoquan/FnDepot@main/cowbutler/fpk/cowbutler-1.0.7-arm64.fpk"
       ],
-      "size": 19266149,
-      "sha256": "0a05f809eb9f7730d9a39e5c1139cf1e18fb535872f7425dcfea05f6a320a3a5"
+      "size": 19419654,
+      "sha256": "522f12876b33ac404c5d206a49f01098697a03e85c2c4e74ddd44663a4b69ef3"
     }
   }
 }
